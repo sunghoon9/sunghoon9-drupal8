@@ -1,0 +1,76 @@
+.view {
+	&.grid {
+		.view-content {
+			.views-row {
+				width:300px;
+				height:auto;
+				margin-bottom:20px;
+				padding:15px;
+				background-color:#fff;
+				box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.3333);
+				box-sizing:border-box;
+
+				.views-field-title {
+					margin-bottom:15px;
+				}
+
+				.views-field-body {
+					margin-bottom:15px;
+					* {
+						font-size:0.875rem;
+						color:#666;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Random color //
+.ultra_violet {
+	.view {
+		&.grid {
+			.view-content {
+				.views-row {
+					@include default_border_1(1px);
+				}
+			}
+		}
+	}
+}
+
+.greenery {
+	.view {
+		&.grid {
+			.view-content {
+				.views-row {
+					@include default_border_2(1px);
+				}
+			}
+		}
+	}
+}
+
+.rose_quartz {
+	.view {
+		&.grid {
+			.view-content {
+				.views-row {
+					@include default_border_3(1px);
+				}
+			}
+		}
+	}
+}
+
+.serenity {
+	.view {
+		&.grid {
+			.view-content {
+				.views-row {
+					@include default_border_4(1px);
+				}
+			}
+		}
+	}
+}

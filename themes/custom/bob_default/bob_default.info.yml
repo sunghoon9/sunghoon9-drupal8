@@ -1,0 +1,19 @@
+name: Bob Default
+type: theme
+description: 'My first theme for Drupal 8.x.'
+core: 8.x
+project: 'drupal'
+datestamp: 1527814298
+libraries:
+  - bob_default/global-styling
+  - bob_default/global-scripts
+base theme: classy
+regions:
+  header_top: 'Header Top'
+  header_bottom: 'Header Bottom'
+  highlight: 'Highlight'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'

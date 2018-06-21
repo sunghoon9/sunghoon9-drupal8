@@ -1,0 +1,100 @@
+// Default font style //
+html {
+	font-family:'Nanum Gothic';
+	font-size:16px;
+	font-weight:400;
+	color:#666;
+	line-height:1.618;
+	box-sizing:border-box;
+}
+
+.basc_color_1 {}
+
+// Headline //
+h1 {
+	font-size:2rem;
+	font-weight:900;
+}
+
+h2 {
+	font-size:1.8rem;
+	font-weight:700;
+}
+
+h3 {
+	font-size:1.6rem;
+	font-weight:700;
+}
+
+h4 {
+	font-size:1.4rem;
+	font-weight:700;
+}
+
+h5 {
+	font-size:1.2rem;
+	font-weight:400;
+}
+
+h6 {
+	font-size:1rem;
+	font-weight:400;
+}
+
+p {
+	margin:0; margin-bottom:10px;
+	font-size:1rem;
+}
+
+span {
+	&.label {
+		display:inline-block;
+		font-size:1rem;
+		color:$base_color;
+	}
+}
+
+a {
+	font-size:inherit;
+	color:$base_color;
+	text-decoration:none;
+
+	&:hover {
+		text-decoration:underline;
+	}
+}
+
+.messages {
+	margin-bottom:30px;
+	font-size:0.875rem;
+}
+
+// Breadcrumb //
+.block-system-breadcrumb-block {
+	content:'';
+	display:table;
+	clear:both;
+	width:100%;
+
+	.breadcrumb {
+		float:right;
+		li {
+			&:before {
+				content:"\e940";
+				font-family:'xeicon';
+				vertical-align:middle;
+			}
+			&:first-child {
+				&:before {
+					content:'';
+					display:none;
+				}
+			}
+			font-size:0.875rem;
+
+			a {
+				vertical-align:middle;
+			}
+		}
+	}
+}

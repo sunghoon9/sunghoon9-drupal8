@@ -1,0 +1,16 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/fontawesome/web-fonts-with-css/css/fontawesome-all.css: {}
+      css/style.css: {}
+      bower_components/xeicon/xeicon.css: {}
+
+global-scripts:
+  version: 1.x
+  js:
+    node_modules/masonry-layout/dist/masonry.pkgd.min.js: {}
+    js/smartresize: {}
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
